@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="91dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:text="Feedback " />
+
+    <EditText
+        android:id="@+id/et_feed"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:hint="Who Was Call Please Rate me .." />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DONE" />
+
+</LinearLayout>
